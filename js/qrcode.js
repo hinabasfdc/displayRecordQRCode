@@ -48,6 +48,13 @@
 //	http://www.denso-wave.com/qrcode/faqpatent-e.html
 //
 //---------------------------------------------------------------------
+//---------------------------------------------------------------------
+// Customized for Lightning Web Component
+// - Add getBase64GifImageData(cellSize, margin)
+// - Add _getBase64GifImageData = function(width, height, getPixel)
+//
+// 2019/11/8 Hiroyuki Inaba
+//---------------------------------------------------------------------
 
 const PAD0 = 0xec;
 const PAD1 = 0x11;
